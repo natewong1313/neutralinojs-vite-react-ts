@@ -9,8 +9,7 @@
     "start-neu": "neu run --frontend-lib-dev",
     "build": "npm run build-vite && npm run build-neu",
     "build-vite": "tsc && vite build",
-    "build-neu": "neu build",
-    "preview": "vite preview"
+    "build-neu": "neu build"
   },
   "dependencies": {
     "@neutralinojs/lib": "^3.9.0",
